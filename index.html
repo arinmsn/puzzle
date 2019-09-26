@@ -7,25 +7,24 @@
   </head>
 
   <body>
-    <div class="game">
+    <div class="puzzle game">
       <div class="grid">
-        <button id="1" class="puzzle">1</button>
-        <button id="2" class="puzzle">2</button>
-        <button id="3" class="puzzle">3</button>
-        <button id="4" class="puzzle">4</button>
-        <button id="5" class="puzzle">5</button>
-        <button id="6" class="puzzle">6</button>
-        <button id="7" class="puzzle">7</button>
-        <button id="8" class="puzzle">8</button>
-      </div>
-
-      <div class="footer">
-        <button>Play</button>
+        <button class="tile tile--1" style="--area:A">
+          <span class="occupied">1</span>
+        </button>
+        <button class="tile tile--2 occupied" style="--area:B">2</button>
+        <button class="tile tile--3 occupied" style="--area:C">3</button>
+        <button class="tile tile--4 occupied" style="--area:D">4</button>
+        <button class="tile tile--5 occupied" style="--area:E">5</button>
+        <button class="tile tile--6 occupied" style="--area:F">6</button>
+        <button class="tile tile--7 occupied" style="--area:G">7</button>
+        <button class="tile tile--8 occupied" style="--area:H">8</button>
+        <div class="tile tile--empty" style="--area:I"></div>
       </div>
     </div>
 
-    <h2>A Sliding Puzzle</h2>
-
-    <script src="script.js"></script>
+    <div class="message">A Sliding Puzzle</div>
+    <script src="animate-css-grid.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>
