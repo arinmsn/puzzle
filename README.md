@@ -2,4 +2,4 @@
 Drag the number to the empty slot to solve the puzzle.
 
 ## Demo
-Play the game here: https://arinmsn.github.io/sliding-puzzle/
+Play the game here: https://3x3puzzle.netlify.com/
