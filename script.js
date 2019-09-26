@@ -2,6 +2,7 @@ class Box {
   constructor(x, y) {
     this.x = x;
     this.y = y;
+    this.visible = true;
   }
 
   getTopBox() {
@@ -54,7 +55,8 @@ const isSolved = grid => {
     grid[1][1] === 5 &&
     grid[1][2] === 6 &&
     grid[2][0] === 7 &&
-    grid[2][1] === 8
+    grid[2][1] === 8 &&
+    grid[2][2] === ""
   );
 };
 
